@@ -13,8 +13,8 @@ const useWalletModal = (
   login: Login,
   logout: () => void,
   account?: string,
-  baseUrl?: string,
-  baseUrlText?: string
+  baseUrl?: string | null,
+  baseUrlText?: string | null
 ): ReturnType => {
   const [onPresentConnectModal] = useModal(<ConnectModal login={login} />);
   const [onPresentAccountModal] = useModal(

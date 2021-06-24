@@ -15,35 +15,39 @@ interface Props {
   baseUrlText: string | null;
 }
 
-const AccountModal: React.FC<Props> = ({ baseUrl, baseUrlText, account, logout, onDismiss = () => null }) => (
-  <Modal title="Your wallet" onDismiss={onDismiss}>
-    <Text
-      fontSize="20px"
-      bold
-      style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" }}
-    >
-      {account}
-    </Text>
-    <Flex mb="32px">
-      <LinkExternal small href={`${baseUrl ? baseUrl : `https://explorer.harmony.one/#/address/`}${account}`} mr="16px">
-        {baseUrlText ? baseUrlText : `View On Harmony`}
-      </LinkExternal>
-      <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
-    </Flex>
-    <Flex justifyContent="center">
-      <Button
-        scale="sm"
-        variant="secondary"
-        onClick={() => {
-          logout();
-          window.localStorage.removeItem(connectorLocalStorageKey);
-          onDismiss();
-        }}
+const AccountModal: React.FC<Props> = ({ baseUrl, baseUrlText, account, logout, onDismiss = () => null }) => {
+  const urlBaseLink = baseUrl || "https://explorer.harmony.one/#/address/";
+  const urlText = baseUrlText || "View On Harmony";
+  return (
+    <Modal title="Your wallet" onDismiss={onDismiss}>
+      <Text
+        fontSize="20px"
+        bold
+        style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" }}
       >
-        Logout
-      </Button>
-    </Flex>
-  </Modal>
-);
+        {account}
+      </Text>
+      <Flex mb="32px">
+        <LinkExternal small href={`${urlBaseLink}${account}`} mr="16px">
+          {urlText}
+        </LinkExternal>
+        <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
+      </Flex>
+      <Flex justifyContent="center">
+        <Button
+          scale="sm"
+          variant="secondary"
+          onClick={() => {
+            logout();
+            window.localStorage.removeItem(connectorLocalStorageKey);
+            onDismiss();
+          }}
+        >
+          Logout
+        </Button>
+      </Flex>
+    </Modal>
+  );
+};
 
 export default AccountModal;
