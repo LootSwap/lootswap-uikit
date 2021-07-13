@@ -33,7 +33,7 @@ it("renders correctly", () => {
             scale="md"
           >
             <svg
-              class="sc-eCssSg fzWqWF"
+              class="sc-eCssSg ixjFLH"
               color="primary"
               viewBox="0 0 24 24"
               width="20px"

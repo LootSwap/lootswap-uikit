@@ -30,7 +30,7 @@ it("renders link external link correctly", () => {
       >
         Link
         <svg
-          class="sc-dlfnbm RFfyN"
+          class="sc-dlfnbm cLPGOD"
           color="primary"
           viewBox="0 0 24 24"
           width="20px"
