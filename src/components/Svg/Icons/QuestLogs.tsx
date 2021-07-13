@@ -1,7 +1,8 @@
 import React from "react";
+import { useTheme } from "styled-components";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
-import { useTheme } from "styled-components";
+
 const Icon: React.FC<SvgProps> = (props) => {
   const theme = useTheme();
   return (
@@ -14,9 +15,9 @@ const Icon: React.FC<SvgProps> = (props) => {
       <path
         fill="none"
         stroke={theme.colors.contrast}
-        stroke-width="18.1574"
-        stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeWidth="18.1574"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
         d="M117.81,226.65c6.16,1.52,12.61,2.33,19.24,2.33c44.16,0,79.95-35.8,79.95-79.95s-35.8-79.95-79.95-79.95
 		    s-79.95,35.8-79.95,79.95c0,15.77,4.57,30.48,12.45,42.87L57.1,242.45L117.81,226.65z"
       />
