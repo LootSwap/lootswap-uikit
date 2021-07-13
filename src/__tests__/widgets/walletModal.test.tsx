@@ -30,7 +30,7 @@ it("renders ConnectModal correctly", () => {
             scale="md"
           >
             <svg
-              class="sc-dlfnbm gcSWCY"
+              class="sc-dlfnbm cIPMii"
               color="primary"
               viewBox="0 0 24 24"
               width="20px"
@@ -59,7 +59,7 @@ it("renders ConnectModal correctly", () => {
               Metamask
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 96 96"
               width="32px"
@@ -203,7 +203,7 @@ it("renders ConnectModal correctly", () => {
               TrustWallet
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 96 96"
               width="32px"
@@ -248,7 +248,7 @@ it("renders ConnectModal correctly", () => {
               MathWallet
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 96 96"
               width="32px"
@@ -282,7 +282,7 @@ it("renders ConnectModal correctly", () => {
               TokenPocket
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 96 96"
               width="32px"
@@ -318,7 +318,7 @@ it("renders ConnectModal correctly", () => {
               WalletConnect
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 96 96"
               width="32px"
@@ -348,7 +348,7 @@ it("renders ConnectModal correctly", () => {
               Binance Chain Wallet
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 32 32"
               width="32px"
@@ -414,7 +414,7 @@ it("renders ConnectModal correctly", () => {
               SafePal Wallet
             </div>
             <svg
-              class="sc-dlfnbm gspIOr"
+              class="sc-dlfnbm hxqMrh"
               color="text"
               viewBox="0 0 96 96"
               width="32px"
@@ -440,7 +440,7 @@ it("renders ConnectModal correctly", () => {
             target="_blank"
           >
             <svg
-              class="sc-dlfnbm gNajFs"
+              class="sc-dlfnbm bwvbUC"
               color="primary"
               viewBox="0 0 24 24"
               width="20px"
@@ -486,7 +486,7 @@ it("renders AccountModal correctly", () => {
             scale="md"
           >
             <svg
-              class="sc-dlfnbm gcSWCY"
+              class="sc-dlfnbm cIPMii"
               color="primary"
               viewBox="0 0 24 24"
               width="20px"
@@ -521,7 +521,7 @@ it("renders AccountModal correctly", () => {
             >
               View On Harmony
               <svg
-                class="sc-dlfnbm RFfyN"
+                class="sc-dlfnbm cLPGOD"
                 color="primary"
                 viewBox="0 0 24 24"
                 width="20px"
@@ -539,7 +539,7 @@ it("renders AccountModal correctly", () => {
             >
               Copy Address
               <svg
-                class="sc-dlfnbm RFfyN"
+                class="sc-dlfnbm cLPGOD"
                 color="primary"
                 viewBox="0 0 24 24"
                 width="20px"
@@ -550,7 +550,7 @@ it("renders AccountModal correctly", () => {
                 />
               </svg>
               <div
-                class="sc-bqyKva idsmeh"
+                class="sc-bqyKva gTgfUg"
               >
                 Copied
               </div>

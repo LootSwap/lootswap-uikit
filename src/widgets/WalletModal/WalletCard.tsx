@@ -19,6 +19,7 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb }) => 
       variant="tertiary"
       onClick={() => {
         login(walletConfig.connectorId);
+        console.log("hello");
         window.localStorage.setItem(connectorLocalStorageKey, walletConfig.connectorId);
         onDismiss();
       }}

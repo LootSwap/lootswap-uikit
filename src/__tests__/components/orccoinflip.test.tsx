@@ -13,7 +13,7 @@ it("renders correctly", () => {
           class="sc-hKgILt dgETrl"
         >
           <svg
-            class="sc-bdfBwQ cxMgFo sc-dlfnbm cUTJat"
+            class="sc-bdfBwQ dNNNeq sc-dlfnbm cUTJat"
             color="text"
             viewBox="0 0 40 40"
             width="64px"
@@ -71,7 +71,7 @@ it("renders correctly", () => {
           </svg>
         </div>
         <svg
-          class="sc-bdfBwQ cxMgFo"
+          class="sc-bdfBwQ dNNNeq"
           color="text"
           viewBox="0 0 386.2 406.25"
           width="128px"

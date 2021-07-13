@@ -50,5 +50,7 @@ export { default as WarningIcon } from "./Icons/Warning";
 export { default as LootIcon } from "./Icons/LootToken";
 export { default as SwapOneIcon } from "./Icons/SwapOne";
 export { default as GuildIcon } from "./Icons/Guilds";
+export { default as QuestLogsIcon } from "./Icons/QuestLogs";
+export { default as HomeIcon } from "./Icons/Home";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
