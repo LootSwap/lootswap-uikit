@@ -56,7 +56,7 @@ it("renders correctly", () => {
           >
             <button
               aria-label="Toggle menu"
-              class="sc-eCssSg cJvBtr sc-jSgupP hCCShP"
+              class="sc-eCssSg xmVgq sc-jSgupP hCCShP"
               scale="md"
             >
               <svg
@@ -87,7 +87,7 @@ it("renders correctly", () => {
           >
             <div>
               <button
-                class="sc-eCssSg dUOYud"
+                class="sc-eCssSg jobfmw"
                 scale="sm"
               >
                 0xbd...c980
@@ -105,7 +105,7 @@ it("renders correctly", () => {
               class="sc-kEjbxe fnkFQx"
             >
               <div
-                class="sc-fubCfw fYkQzm rainbow"
+                class="sc-fubCfw jyOHiv rainbow"
                 role="button"
               >
                 <a
@@ -135,7 +135,7 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw eWTPd"
+                  class="sc-fubCfw lgHOGc"
                   role="button"
                 >
                   <svg
@@ -210,7 +210,7 @@ it("renders correctly", () => {
                 />
               </div>
               <div
-                class="sc-fubCfw eWTPd"
+                class="sc-fubCfw lgHOGc"
                 role="button"
               >
                 <a
@@ -235,7 +235,7 @@ it("renders correctly", () => {
                 </a>
               </div>
               <div
-                class="sc-fubCfw eWTPd"
+                class="sc-fubCfw lgHOGc"
                 role="button"
               >
                 <a
@@ -306,7 +306,7 @@ it("renders correctly", () => {
                 </a>
               </div>
               <div
-                class="sc-fubCfw eWTPd"
+                class="sc-fubCfw lgHOGc"
                 role="button"
               >
                 <a
@@ -339,7 +339,7 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw eWTPd"
+                  class="sc-fubCfw lgHOGc"
                   role="button"
                 >
                   <svg
@@ -379,7 +379,7 @@ it("renders correctly", () => {
               class="sc-idOhPF bbvLsP"
             >
               <button
-                class="sc-eCssSg kDGpve sc-iqHYGH iOsNjo"
+                class="sc-eCssSg hobUeT sc-iqHYGH iOsNjo"
                 scale="md"
               >
                 <svg
