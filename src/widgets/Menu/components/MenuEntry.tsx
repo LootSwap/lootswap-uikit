@@ -59,6 +59,12 @@ const MenuEntry = styled.div<Props>`
     background: ${({ theme }) => theme.colors.gradients.lootswap};
     background-size: 400% 100%;
   }
+  &.rainbow-guilds {
+    background-clip: text;
+    animation: ${rainbowAnimation} 3s ease-in-out infinite;
+    background: ${({ theme }) => theme.colors.gradients.guild};
+    background-size: 400% 100%;
+  }
 `;
 MenuEntry.defaultProps = {
   secondary: false,
