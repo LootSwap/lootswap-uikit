@@ -35,6 +35,8 @@ export const lightColors: Colors = {
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     lootswap: "linear-gradient(139.73deg, #b5cff6 0%, #b9ebef 100%)",
+    guild:
+      "linear-gradient(139deg, rgba(181,207,246,1) 0%, rgba(134,137,66,1) 35%, rgba(230,115,68,1) 56%, rgba(83,63,52,1) 80%, rgba(134,139,166,1) 100%)",
   },
 };
 
@@ -60,5 +62,7 @@ export const darkColors: Colors = {
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     lootswap: "linear-gradient(139.73deg, #164b98 0%, #b9ebef 100%)",
+    guild:
+      "linear-gradient(139deg, rgba(181,207,246,1) 0%, rgba(134,137,66,1) 35%, rgba(230,115,68,1) 56%, rgba(83,63,52,1) 80%, rgba(134,139,166,1) 100%)",
   },
 };
