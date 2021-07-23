@@ -71,8 +71,16 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "Join Chat",
+        label: "English",
         href: "https://t.me/lootswap",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/lootswapfinance",
+      },
+      {
+        label: "Price",
+        href: "https://t.me/LootSwapPrice",
       },
     ],
   },
