@@ -14,6 +14,7 @@ export * from "./components/Spinner";
 export * from "./components/Skeleton";
 export * from "./components/Toggle";
 export * from "./components/OrcCoinFlip";
+export * from "./components/Slider";
 
 // Hooks
 export * from "./hooks";
