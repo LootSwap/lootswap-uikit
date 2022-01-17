@@ -71,16 +71,8 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
-        href: "https://t.me/lootswap",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/lootswapfinance",
-      },
-      {
-        label: "Price",
-        href: "https://t.me/LootSwapPrice",
+        label: "Main",
+        href: "https://t.me/Official_OneFi",
       },
     ],
   },
